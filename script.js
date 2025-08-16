@@ -20,3 +20,10 @@ let obtenerCargoFijo = function() {
 }
 
 let cargoFijo = obtenerCargoFijo();
+
+let obtenerIva = function() {
+    return parseFloat(prompt("Ingrese el porcentaje de IVA:")) / 100;
+}
+
+let porcentajeIva = obtenerIva();
+
