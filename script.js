@@ -31,3 +31,7 @@ let calcularSubtotal = () => consumoDelMes * tarifaPorKilovatio;
 
 let subtotal = calcularSubtotal();
 
+let calcularIvaFactura = () => subtotal * porcentajeIva;
+
+let ivaCalculado = calcularIvaFactura();
+
