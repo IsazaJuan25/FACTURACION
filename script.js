@@ -8,3 +8,4 @@ function calcularConsumoMensual() {
 }
 
 let consumoDelMes = calcularConsumoMensual();
+
