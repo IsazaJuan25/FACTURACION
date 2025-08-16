@@ -27,3 +27,7 @@ let obtenerIva = function() {
 
 let porcentajeIva = obtenerIva();
 
+let calcularSubtotal = () => consumoDelMes * tarifaPorKilovatio;
+
+let subtotal = calcularSubtotal();
+
