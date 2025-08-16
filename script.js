@@ -38,3 +38,15 @@ let ivaCalculado = calcularIvaFactura();
 let calcularTotal = () => subtotal + ivaCalculado + cargoFijo;
 
 let totalFactura = calcularTotal();
+
+let mostrarFactura = () => {
+    console.log(`\nDETALLE DE LA FACTURA\n
+    Consumo mensual: ${consumoDelMes} kWh
+    Tarifa por kilovatio: ${tarifaPorKilovatio} pesos
+    Subtotal: ${subtotal} pesos
+    IVA aplicado: ${ivaCalculado} pesos
+    Cargo fijo: ${cargoFijo} pesos
+    >>> TOTAL A PAGAR: ${totalFactura} pesos`);
+}
+
+mostrarFactura();
