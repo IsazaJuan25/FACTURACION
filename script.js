@@ -50,3 +50,10 @@ let mostrarFactura = () => {
 }
 
 mostrarFactura();
+
+let mensajeDespedida = () => {
+    console.log("\nGracias por utilizar nuestro sistema de facturación. ¡Hasta pronto!");
+}
+
+mensajeDespedida();
+
