@@ -14,3 +14,9 @@ function obtenerTarifaKilovatio() {
 }
 
 let tarifaPorKilovatio = obtenerTarifaKilovatio();
+
+let obtenerCargoFijo = function() {
+    return parseFloat(prompt("Indique el cargo fijo por servicio:"));
+}
+
+let cargoFijo = obtenerCargoFijo();
