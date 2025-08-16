@@ -9,3 +9,8 @@ function calcularConsumoMensual() {
 
 let consumoDelMes = calcularConsumoMensual();
 
+function obtenerTarifaKilovatio() {
+    return parseFloat(prompt("Ingrese el costo por kilovatio:"));
+}
+
+let tarifaPorKilovatio = obtenerTarifaKilovatio();
