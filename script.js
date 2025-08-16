@@ -35,3 +35,6 @@ let calcularIvaFactura = () => subtotal * porcentajeIva;
 
 let ivaCalculado = calcularIvaFactura();
 
+let calcularTotal = () => subtotal + ivaCalculado + cargoFijo;
+
+let totalFactura = calcularTotal();
